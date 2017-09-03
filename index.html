@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="anyApp">
+
+<head>
+  <meta charset="utf-8">
+  <title> Quick and Dirty </title>
+
+  <!--Style -->
+  <link rel="stylesheet" type="text/css" href="style.css"></link>
+  <link rel="stylesheet" href="node_modules/node-materialize/bin/materialize.css"></link>
+
+  <!--angular-->
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/angular/angular.js"></script>
+  <script src="node_modules/angular-resource/angular-resource.min.js"></script>
+
+  <!--materialize -->
+  <script src="node_modules/node-materialize/bin/materialize.js"></script>
+  <script src="node_modules/angular-materialize/src/angular-materialize.js"></script>
+
+
+  <script src="app.js"></script>
+
+</head>
+
+<body>
+  <div class="container" ng-controller="homeCtrl">
+    <div class="home-view">
+      
+      <input-field>
+        <input type="text" ng-model="x">
+        <label>Input label</label>
+      </input-field>
+      <input-field>
+        <textarea ng-model="y" class="materialize-textarea"></textarea>
+        <label>Textarea</label>
+      </input-field>
+
+
+    </div>
+  </div>
+</body>
+
+</html>

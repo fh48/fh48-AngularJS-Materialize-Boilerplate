@@ -1,0 +1,19 @@
+{
+  "name": "qickanddirty",
+  "version": "1.0.0",
+  "description": "A quick frontend implementation of AngularJS to retrieve data and display it. ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fabian Hinsenkamp",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-materialize": "^0.2.2",
+    "angular-resource": "^1.6.6",
+    "angular-route": "^1.6.6",
+    "jquery": "^3.2.1",
+    "materialize": "^1.0.0"
+  }
+}
