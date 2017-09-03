@@ -21,22 +21,26 @@
 
   <script src="app.js"></script>
 
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
 
 <body>
   <div class="container" ng-controller="homeCtrl">
     <div class="home-view">
-      
-      <input-field>
-        <input type="text" ng-model="x">
-        <label>Input label</label>
-      </input-field>
-      <input-field>
-        <textarea ng-model="y" class="materialize-textarea"></textarea>
-        <label>Textarea</label>
-      </input-field>
 
+      <div class="card-panel teal lighten-5">
 
+        <div class="divider"></div>
+          <div class="section">
+              <h5>Headline</h5>
+                <p>Stuff</p>
+          </div>
+        <div class="col">
+          <div class="btn" ng-click="print()" >Button</div>
+        </div>
+
+      </div>
     </div>
   </div>
 </body>
